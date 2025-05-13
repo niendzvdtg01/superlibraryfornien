@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.flex-navigation{
+    background-color: #ededed;
+    position: relative;
+}
+.navbar-brand img{
+    max-width: 80px;
+}
+.nav-link p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 10px;
+}
+/* End header */
+/* Phan main */
+/* Phan chia bo cuc */
+.flex-container {
+    display: flex;
+}
+.flex-container > div {   
+    background-color: #e5e5e5;
+}
+/* Anh */
+.flex-container img{
+    width:1000px;
+    height: 700px;
+    z-index: -1;
+}
+/* Slogan */
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; 
+  }
+  
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+  
+.quote-text {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+  }
+/* Phan danh sach mo rong */
+.right-info{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.time-img{
+    flex-grow: 1;
+    height: 100%;
+}
+.time-img h3{
+    position: absolute;
+}
+.time-img img {
+    width: 100%;
+    height: 117px;
+    object-fit: cover; /* Giúp ảnh không bị méo */
+  }
+/* Nut tim kiem */
+.search-input{
+    padding: 30px 30px;
+    background-color: #1e1e1e;
+}
+.input-group{
+    background-color:#1e1e1e;
+    border-bottom: 3px solid #ccc;
+}
+.input-group input:focus-visible {
+    background-color: #1e1e1e;
+    color: #ccc;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+  }
+.input-group input{
+    background: transparent;
+    border: none;
+}
+.input-group input::placeholder{
+    color: #ffffff; 
+    border: none;
+}
+.btn img{
+    width: 40px;
+    height: auto;
+}
+
